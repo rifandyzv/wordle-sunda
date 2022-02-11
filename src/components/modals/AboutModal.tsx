@@ -14,14 +14,26 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
     >
       <p className="text-sm text-gray-500 dark:text-gray-300">
         Keclap nyeate ulinan nebak kecap basa sunda, anu terinspirasi ku Wordle.
-        Ieu ulinan kaasup proyek open source anu dijieun ku akang Chase
-        Wackerfuss. Aranjeun tiasa ningali sumber kode tina Keclap di dieu,
-        sareng tiasa ningali sumber kode react-wordle di dieu. -{' '}
+        Ieu ulinan kaasup proyek open source anu diinisiasi ku Akang{' '}
+        <a
+          href="https://github.com/cwackerfuss/"
+          className="underline font-bold"
+        >
+          Chase Wackerfuss.
+        </a>{' '}
+        Aranjeun tiasa ningali sumber kode tina Keclap{' '}
+        <a
+          href="https://github.com/rifandyzv/wordle-sunda"
+          className="underline font-bold"
+        >
+          di dieu,
+        </a>{' '}
+        sareng tiasa ningali sumber kode react-wordle{' '}
         <a
           href="https://github.com/cwackerfuss/react-wordle"
           className="underline font-bold"
         >
-          check out the code here
+          di dieu.
         </a>{' '}
       </p>
     </BaseModal>

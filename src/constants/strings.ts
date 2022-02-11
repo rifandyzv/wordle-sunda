@@ -1,4 +1,4 @@
-export const GAME_TITLE = 'Keclap'
+export const GAME_TITLE = `KECLAP`
 
 export const WIN_MESSAGES = ['Alus!', 'Hade', 'Wilujeng!']
 export const GAME_COPIED_MESSAGE = 'Hasil atos dicopy ka clipboard'
