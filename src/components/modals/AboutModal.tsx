@@ -7,10 +7,16 @@ type Props = {
 
 export const AboutModal = ({ isOpen, handleClose }: Props) => {
   return (
-    <BaseModal title="About" isOpen={isOpen} handleClose={handleClose}>
+    <BaseModal
+      title="Ngeunaan Ulinan"
+      isOpen={isOpen}
+      handleClose={handleClose}
+    >
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        This is an open source version of the word guessing game we all know and
-        love -{' '}
+        Keclap nyeate ulinan nebak kecap basa sunda, anu terinspirasi ku Wordle.
+        Ieu ulinan kaasup proyek open source anu dijieun ku akang Chase
+        Wackerfuss. Aranjeun tiasa ningali sumber kode tina Keclap di dieu,
+        sareng tiasa ningali sumber kode react-wordle di dieu. -{' '}
         <a
           href="https://github.com/cwackerfuss/react-wordle"
           className="underline font-bold"
