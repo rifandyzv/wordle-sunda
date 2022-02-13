@@ -641,5 +641,6 @@ export const VALID_GUESSES = [
   'entog',
   'eptek',
   'etika',
-  'Kamus',
+  'kamus',
+  'kapal',
 ]

@@ -1,10 +1,10 @@
 export const GAME_TITLE = `KECLAP`
 
-export const WIN_MESSAGES = ['Alus!', 'Hade', 'Wilujeng!']
+export const WIN_MESSAGES = ['Alus!', 'Hade euy!', 'Wilujeng!']
 export const GAME_COPIED_MESSAGE = 'Hasil atos dicopy ka clipboard'
 export const ABOUT_GAME_MESSAGE = 'Ngeunaan Ulinan'
 export const NOT_ENOUGH_LETTERS_MESSAGE = 'Kirang Hurup!'
-export const WORD_NOT_FOUND_MESSAGE = 'Kecap teu eya dina kamus'
+export const WORD_NOT_FOUND_MESSAGE = 'Kecap teu aya dina kamus'
 export const CORRECT_WORD_MESSAGE = (solution: string) =>
   `Kecapna nyaeta : ${solution}`
 export const ENTER_TEXT = 'Enter'
